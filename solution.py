@@ -10,7 +10,7 @@ def solution(p: float, x: np.array) -> tuple:
     # Измените код этой функции
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
-    alpha = p
+    alpha = 1 - p
     loc = x.mean()
     return (loc - 0.008)/(1-alpha/2)+0.008, \
            (loc - 0.008)/(alpha/2)+0.008
